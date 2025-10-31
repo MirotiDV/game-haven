@@ -1,13 +1,39 @@
 
 /* HEADER.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "monaco", monospace;
+}
+
+:root {
+  --background: #161021;
+  --background-light: #221C2C;
+  --text-primary: #FFFFFF;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --primary: #0099FF;
+  --primary-light: #8A79DF;
+  --primary-hover: #007ACC;
+  --primary-dark: #005F99;
+  --border: #221C2C;
+
+}
+
 html {
-    background-color: #161021;
+    background-color: var(--background);
 }
 
 header {
     display: flex;
     align-items: flex-start;
-    color: white;
+    color: var(--text-primary);
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 1.5rem;}
 }
   .storeLogo {
       height: 60px;
@@ -25,7 +51,7 @@ header {
   display: flex;
   margin-left: 3rem;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 2.25rem;
 
   a {
     text-decoration: none;
@@ -40,16 +66,53 @@ header {
   }
 }
 
+form {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--background-light);
+    border-radius: 8px;
+
+    svg {
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      margin-left: 0.5rem;
+      margin-top: 0.3rem;
+    }
+}
+
+form input[type="text"] {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-muted);
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+}
+
+form input[type="text"]::placeholder {
+  color: #64748b;
+}
+
   .favButton {
     
       height: 40px;
       width: 40px;
       margin-top: 1.5rem;
-      margin-left: auto;
       cursor: pointer;
-      background-color: #221C2C;
-      border-color: #221C2C;
+      background-color: var(--background-light);
+      border: none;
       border-radius: 8px;
+
+      svg {
+        height: 25px;
+        width: 25px;
+        margin-top: 3px;
+
+      }
 
   }
 
@@ -61,8 +124,24 @@ header {
       margin-left: 0.5rem;
       margin-right: 1rem;
       cursor: pointer;
-      background-color: #221C2C;
-      border-color: #221C2C;
+      border: none;
+      background-color: var(--background-light);
       border-radius: 8px;
+
+      svg {
+        height: 25px;
+        width: 25px;
+        margin-top: 3px;
+
+      }
+
+}
+
+    .avatarUser {
+        height: 60px;
+        width: 60px;
+        margin-top: 0.85rem;
+        margin-right: 1rem;
+        display: flex;
 
   }
