@@ -1,5 +1,6 @@
 import { Header } from './components/Header'
 import { GameCard } from './components/GameCard'
+import { Banner } from './components/Banner'
 import './App.css'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
 
     <Header/>
-    <GameCard/>
+    <hr></hr>
+    <Banner/>
     </>
   );
 }
