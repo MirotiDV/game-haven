@@ -1,17 +1,16 @@
-
-export function GameCard() {
-  return (
-
+export function GameCard({game}) {
+  return(
+    <>
     <section className="gameCard">
-            <img className="gameImage" src="..\src\public\pz3.jpg" alt="Game Image" />
+        <img className="gameImage" src={game.img} alt="Game Image" />
         <div className="gameDetails">
-            <h4>Project Zero 3: The Tormented</h4>
+            <h4>{game.title}</h4>
             <div>  
-                <p className="price">$19.99</p>
+                <p className="price">{game.price}€</p>
                 <button className="buyButton">Buy Now</button>
             </div>
-            
         </div>
     </section>
+    </>
   );
 }

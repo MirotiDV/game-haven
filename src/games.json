@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Project Zero 3: The Tormented",
+        "genre": "Terror",
+        "platform": "PlayStation 2",
+        "price": 29.99,
+        "releaseYear": 2005,
+        "img": "https://i.3djuegos.com/juegos/17697/project_zero_3_the_tormented/fotos/ficha/project_zero_3_the_tormented-5347876.webp"
+        },
+        {
+        "id": 2,
+        "title": "Rule of Rose",
+        "genre": "Terror",
+        "platform": "PlayStation 2",
+        "price": 429.99,
+        "releaseYear": 2005,
+        "img": "https://es.static.webuy.com/product_images/Juegos/Playstation2%20Rarezas/SLEGPS2S1554B_l.jpg"
+        },
+        {
+        "id": 3,
+        "title": "Haunting Ground",
+        "genre": "Puzzle",
+        "platform": "PlayStation 2",
+        "price": 29.99,
+        "releaseYear": 2005,
+        "img": "https://m.media-amazon.com/images/I/51C2JKJ8YVL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Valkyrie Profile 2: Silmeria",
+        "genre": "RPG",
+        "platform": "PlayStation 2",
+        "price": 29.99,
+        "releaseYear": 2005,
+        "img": "https://www.retroplace.com/pics/ps2/packshots/82996--valkyrie-profile-2-silmeria.png"
+        },
+        {
+        "id": 5,
+        "title": ".Hack Infection Part.1 ",
+        "genre": "RPG",
+        "platform": "PlayStation 2",
+        "price": 429.99,
+        "releaseYear": 2005,
+        "img": "https://m.media-amazon.com/images/I/51WG16u8B5L._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+        "id": 6,
+        "title": "Resident Evil 4",
+        "genre": "Acción",
+        "platform": "PlayStation 2",
+        "price": 29.99,
+        "releaseYear": 2005,
+        "img": "https://preview.redd.it/the-re4-pal-cover-v0-c3fzjwlw3fjc1.jpeg?width=640&crop=smart&auto=webp&s=fc6d522c931354d94dc4023757b4b1e26e84006d"
+    }
+]
